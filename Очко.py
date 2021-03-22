@@ -46,8 +46,7 @@ class Player():
         self.hand += card
         self.scores += SCORE_TABLE[card]
         
-
-
-deck = Deck()
-a = Player()
+if __name__ == __main__:
+    deck = Deck()
+    a = Player()
 
